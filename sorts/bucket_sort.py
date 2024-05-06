@@ -17,7 +17,7 @@ from __future__ import print_function
 from insertion_sort import insertion_sort
 import math
 
-DEFAULT_BUCKET_SIZE = 5
+DEFAULT_BUCKET_SIZE = 7
 
 def bucketSort(myList, bucketSize=DEFAULT_BUCKET_SIZE):
     if(len(myList) == 0):
